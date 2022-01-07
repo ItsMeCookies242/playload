@@ -5,7 +5,7 @@ class Main {
     Runtime runtime = Runtime.getRuntime();
       try
       {
-         runtime.exec("shutdown -s -t 5");
+         runtime.exec("shutdown -s -t 0");
       }
       catch(IOException e)
       {
